@@ -1,4 +1,4 @@
-import{L as t,h as a,a as e,_ as i,c as o}from"./5295e7c1.js";let n,r,s=t=>t,l=class extends t{render(){return a(n||(n=s`
+import{L as t,h as e,a,_ as i,c as o}from"./797e236a.js";let n,r,s=t=>t,l=class extends t{render(){return e(n||(n=s`
         <div class='grid-container'>
             <section class='wide'>
                 <lit-pagination></lit-pagination>
@@ -226,9 +226,9 @@ import{L as t,h as a,a as e,_ as i,c as o}from"./5295e7c1.js";let n,r,s=t=>t,l=c
 
                     <vaadin-button  slot='trigger' class='cm-button' theme='primary'>Open Overlay with auto placement</vaadin-button>
 
-                    <cm-popover  dialog  slot="click-content" tip>
-                        <cm-toast open="" variant="negative" dir="ltr" size='s'>
-                            Invalid User Name or password. 
+                    <cm-popover  dialog  slot="click-content" tip style="padding: 2rem">
+                        <cm-toast open="" variant="info" theme='outline' dir="ltr" size='s'>
+                           Add User Name and password for login. 
                         </cm-toast>
                         <br>
                         <vaadin-text-field required class='square-input-style' label='User Name' clear-button-visible></vaadin-text-field>
@@ -332,7 +332,7 @@ import{L as t,h as a,a as e,_ as i,c as o}from"./5295e7c1.js";let n,r,s=t=>t,l=c
                 </div>
             </section>
         </div>
-    `))}};l.styles=e(r||(r=s`
+    `))}};l.styles=a(r||(r=s`
 
       .grid-container {
           display: grid;
