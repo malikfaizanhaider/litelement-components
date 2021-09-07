@@ -1,0 +1,224 @@
+/* C:/Users/fhaider/AppData/Local/Temp/tmp-13660-effFEhW1rh2J/DSM-V2/src/styles/base.css */
+.i2c-toast-stack {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: var(--i2c-z-index-toast);
+  width: 28rem;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+.i2c-toast-stack i2c-alert {
+  --box-shadow: var(--i2c-shadow-large);
+  margin: var(--i2c-spacing-medium);
+}
+:root {
+  --i2c-color-black: #000;
+  --i2c-color-white: #fff;
+  --i2c-color-gray-50: #f9fafb;
+  --i2c-color-gray-100: #f3f4f6;
+  --i2c-color-gray-200: #e5e7eb;
+  --i2c-color-gray-300: #d1d5db;
+  --i2c-color-gray-400: #9ca3af;
+  --i2c-color-gray-500: #6b7280;
+  --i2c-color-gray-600: #4b5563;
+  --i2c-color-gray-700: #374151;
+  --i2c-color-gray-800: #1f2937;
+  --i2c-color-gray-900: #111827;
+  --i2c-color-gray-950: #0d131e;
+  --i2c-color-primary-50: #f0f9ff;
+  --i2c-color-primary-100: #e0f2fe;
+  --i2c-color-primary-200: #bae6fd;
+  --i2c-color-primary-300: #7dd3fc;
+  --i2c-color-primary-400: #38bdf8;
+  --i2c-color-primary-500: #0ea5e9;
+  --i2c-color-primary-600: #0284c7;
+  --i2c-color-primary-700: #0369a1;
+  --i2c-color-primary-800: #075985;
+  --i2c-color-primary-900: #0c4a6e;
+  --i2c-color-primary-950: #082e45;
+  --i2c-color-primary-text: var(--i2c-color-white);
+  --i2c-color-success-50: #f0fdf4;
+  --i2c-color-success-100: #dcfce7;
+  --i2c-color-success-200: #bbf7d0;
+  --i2c-color-success-300: #86efac;
+  --i2c-color-success-400: #4ade80;
+  --i2c-color-success-500: #22c55e;
+  --i2c-color-success-600: #16a34a;
+  --i2c-color-success-700: #15803d;
+  --i2c-color-success-800: #166534;
+  --i2c-color-success-900: #14532d;
+  --i2c-color-success-950: #0d381e;
+  --i2c-color-success-text: var(--i2c-color-white);
+  --i2c-color-info-50: #f9fafb;
+  --i2c-color-info-100: #f3f4f6;
+  --i2c-color-info-200: #e5e7eb;
+  --i2c-color-info-300: #d1d5db;
+  --i2c-color-info-400: #9ca3af;
+  --i2c-color-info-500: #6b7280;
+  --i2c-color-info-600: #4b5563;
+  --i2c-color-info-700: #374151;
+  --i2c-color-info-800: #1f2937;
+  --i2c-color-info-900: #111827;
+  --i2c-color-info-950: #0d131e;
+  --i2c-color-info-text: var(--i2c-color-white);
+  --i2c-color-warning-50: #fffbeb;
+  --i2c-color-warning-100: #fef3c7;
+  --i2c-color-warning-200: #fde68a;
+  --i2c-color-warning-300: #fcd34d;
+  --i2c-color-warning-400: #fbbf24;
+  --i2c-color-warning-500: #f59e0b;
+  --i2c-color-warning-600: #d97706;
+  --i2c-color-warning-700: #b45309;
+  --i2c-color-warning-800: #92400e;
+  --i2c-color-warning-900: #78350f;
+  --i2c-color-warning-950: #4d220a;
+  --i2c-color-warning-text: var(--i2c-color-white);
+  --i2c-color-danger-50: #fef2f2;
+  --i2c-color-danger-100: #fee2e2;
+  --i2c-color-danger-200: #fecaca;
+  --i2c-color-danger-300: #fca5a5;
+  --i2c-color-danger-400: #f87171;
+  --i2c-color-danger-500: #ef4444;
+  --i2c-color-danger-600: #dc2626;
+  --i2c-color-danger-700: #b91c1c;
+  --i2c-color-danger-800: #991b1b;
+  --i2c-color-danger-900: #7f1d1d;
+  --i2c-color-danger-950: #481111;
+  --i2c-color-danger-text: var(--i2c-color-white);
+  --i2c-border-radius-small: 0.125rem;
+  --i2c-border-radius-medium: 0.25rem;
+  --i2c-border-radius-large: 0.5rem;
+  --i2c-border-radius-x-large: 1rem;
+  --i2c-border-radius-circle: 50%;
+  --i2c-border-radius-pill: 9999px;
+  --i2c-shadow-x-small: 0 1px 0 #0d131e0d;
+  --i2c-shadow-small: 0 1px 2px #0d131e1a;
+  --i2c-shadow-medium: 0 2px 4px #0d131e1a;
+  --i2c-shadow-large: 0 2px 8px #0d131e1a;
+  --i2c-shadow-x-large: 0 4px 16px #0d131e1a;
+  --i2c-spacing-xxx-small: 0.125rem;
+  --i2c-spacing-xx-small: 0.25rem;
+  --i2c-spacing-x-small: 0.5rem;
+  --i2c-spacing-small: 0.75rem;
+  --i2c-spacing-medium: 1rem;
+  --i2c-spacing-large: 1.25rem;
+  --i2c-spacing-x-large: 1.75rem;
+  --i2c-spacing-xx-large: 2.25rem;
+  --i2c-spacing-xxx-large: 3rem;
+  --i2c-spacing-xxxx-large: 4.5rem;
+  --i2c-transition-x-slow: 1000ms;
+  --i2c-transition-slow: 500ms;
+  --i2c-transition-medium: 250ms;
+  --i2c-transition-fast: 150ms;
+  --i2c-transition-x-fast: 50ms;
+  --i2c-font-mono:
+    SFMono-Regular,
+    Consolas,
+    "Liberation Mono",
+    Menlo,
+    monospace;
+  --i2c-font-sans:
+    -apple-system,
+    Roboto,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  --i2c-font-serif:
+    Georgia,
+    "Times New Roman",
+    serif;
+  --i2c-font-size-xx-small: 0.625rem;
+  --i2c-font-size-x-small: 0.75rem;
+  --i2c-font-size-small: 0.875rem;
+  --i2c-font-size-medium: 1rem;
+  --i2c-font-size-large: 1.25rem;
+  --i2c-font-size-x-large: 1.5rem;
+  --i2c-font-size-xx-large: 2.25rem;
+  --i2c-font-size-xxx-large: 3rem;
+  --i2c-font-size-xxxx-large: 4.5rem;
+  --i2c-font-weight-light: 300;
+  --i2c-font-weight-normal: 400;
+  --i2c-font-weight-semibold: 500;
+  --i2c-font-weight-bold: 700;
+  --i2c-letter-spacing-dense: -0.015em;
+  --i2c-letter-spacing-normal: normal;
+  --i2c-letter-spacing-loose: 0.075em;
+  --i2c-line-height-dense: 1.4;
+  --i2c-line-height-normal: 1.8;
+  --i2c-line-height-loose: 2.2;
+  --i2c-focus-ring-color-primary: #0ea5e954;
+  --i2c-focus-ring-color-success: #22c55e54;
+  --i2c-focus-ring-color-info: #6b728054;
+  --i2c-focus-ring-color-warning: #f59e0b54;
+  --i2c-focus-ring-color-danger: #ef444454;
+  --i2c-focus-ring-width: 3px;
+  --i2c-button-font-size-small: var(--i2c-font-size-x-small);
+  --i2c-button-font-size-medium: var(--i2c-font-size-small);
+  --i2c-button-font-size-large: var(--i2c-font-size-medium);
+  --i2c-input-height-small: 1.875rem;
+  --i2c-input-height-medium: 2.5rem;
+  --i2c-input-height-large: 3.125rem;
+  --i2c-input-background-color: var(--i2c-color-white);
+  --i2c-input-background-color-hover: var(--i2c-color-white);
+  --i2c-input-background-color-focus: var(--i2c-color-white);
+  --i2c-input-background-color-disabled: var(--i2c-color-gray-100);
+  --i2c-input-border-color: var(--i2c-color-gray-300);
+  --i2c-input-border-color-hover: var(--i2c-color-gray-400);
+  --i2c-input-border-color-focus: var(--i2c-color-primary-500);
+  --i2c-input-border-color-disabled: var(--i2c-color-gray-300);
+  --i2c-input-border-width: 1px;
+  --i2c-input-border-radius-small: var(--i2c-border-radius-medium);
+  --i2c-input-border-radius-medium: var(--i2c-border-radius-medium);
+  --i2c-input-border-radius-large: var(--i2c-border-radius-medium);
+  --i2c-input-font-family: var(--i2c-font-sans);
+  --i2c-input-font-weight: var(--i2c-font-weight-normal);
+  --i2c-input-font-size-small: var(--i2c-font-size-small);
+  --i2c-input-font-size-medium: var(--i2c-font-size-medium);
+  --i2c-input-font-size-large: var(--i2c-font-size-large);
+  --i2c-input-letter-spacing: var(--i2c-letter-spacing-normal);
+  --i2c-input-color: var(--i2c-color-gray-700);
+  --i2c-input-color-hover: var(--i2c-color-gray-700);
+  --i2c-input-color-focus: var(--i2c-color-gray-700);
+  --i2c-input-color-disabled: var(--i2c-color-gray-900);
+  --i2c-input-icon-color: var(--i2c-color-gray-400);
+  --i2c-input-icon-color-hover: var(--i2c-color-gray-600);
+  --i2c-input-icon-color-focus: var(--i2c-color-gray-600);
+  --i2c-input-placeholder-color: var(--i2c-color-gray-400);
+  --i2c-input-placeholder-color-disabled: var(--i2c-color-gray-600);
+  --i2c-input-spacing-small: var(--i2c-spacing-small);
+  --i2c-input-spacing-medium: var(--i2c-spacing-medium);
+  --i2c-input-spacing-large: var(--i2c-spacing-large);
+  --i2c-input-label-font-size-small: var(--i2c-font-size-small);
+  --i2c-input-label-font-size-medium: var(--i2c-font-size-medium);
+  --i2c-input-label-font-size-large: var(--i2c-font-size-large);
+  --i2c-input-label-color: inherit;
+  --i2c-input-help-text-font-size-small: var(--i2c-font-size-x-small);
+  --i2c-input-help-text-font-size-medium: var(--i2c-font-size-small);
+  --i2c-input-help-text-font-size-large: var(--i2c-font-size-medium);
+  --i2c-input-help-text-color: var(--i2c-color-gray-400);
+  --i2c-toggle-size: 1rem;
+  --i2c-overlay-background-color: #37415180;
+  --i2c-panel-background-color: var(--i2c-color-white);
+  --i2c-panel-border-color: var(--i2c-color-gray-200);
+  --i2c-tooltip-border-radius: var(--i2c-border-radius-medium);
+  --i2c-tooltip-background-color: var(--i2c-color-gray-900);
+  --i2c-tooltip-color: var(--i2c-color-white);
+  --i2c-tooltip-font-family: var(--i2c-font-sans);
+  --i2c-tooltip-font-weight: var(--i2c-font-weight-normal);
+  --i2c-tooltip-font-size: var(--i2c-font-size-small);
+  --i2c-tooltip-line-height: var(--i2c-line-height-dense);
+  --i2c-tooltip-padding: var(--i2c-spacing-xx-small) var(--i2c-spacing-x-small);
+  --i2c-tooltip-arrow-size: 5px;
+  --i2c-tooltip-arrow-start-end-offset: 8px;
+  --i2c-z-index-drawer: 700;
+  --i2c-z-index-dialog: 800;
+  --i2c-z-index-dropdown: 900;
+  --i2c-z-index-toast: 950;
+  --i2c-z-index-tooltip: 1000;
+}
+.i2c-scroll-lock {
+  overflow: hidden !important;
+}

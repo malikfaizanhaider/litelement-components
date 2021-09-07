@@ -1,0 +1,237 @@
+/* C:/Users/fhaider/AppData/Local/Temp/tmp-13660-effFEhW1rh2J/DSM-V2/src/styles/dark.css */
+.i2c-theme-dark {
+  --i2c-input-background-color: var(--i2c-color-gray-900);
+  --i2c-input-background-color-hover: var(--i2c-color-gray-900);
+  --i2c-input-background-color-focus: var(--i2c-color-gray-900);
+  --i2c-input-background-color-disabled: var(--i2c-color-gray-800);
+  --i2c-input-border-color: var(--i2c-color-gray-700);
+  --i2c-input-border-color-hover: var(--i2c-color-gray-600);
+  --i2c-input-border-color-focus: var(--i2c-color-primary-500);
+  --i2c-input-border-color-disabled: var(--i2c-color-gray-200);
+  --i2c-input-border-color-invalid: var(--i2c-color-danger-500);
+  --i2c-input-font-family: var(--i2c-font-sans);
+  --i2c-input-font-weight: var(--i2c-font-weight-normal);
+  --i2c-input-font-size-small: var(--i2c-font-size-small);
+  --i2c-input-font-size-medium: var(--i2c-font-size-medium);
+  --i2c-input-font-size-large: var(--i2c-font-size-large);
+  --i2c-input-letter-spacing: var(--i2c-letter-spacing-normal);
+  --i2c-input-border-color: var(--i2c-color-gray-700);
+  --i2c-input-border-color-hover: var(--i2c-color-gray-600);
+  --i2c-input-border-color-focus: var(--i2c-color-primary-400);
+  --i2c-input-border-color-disabled: var(--i2c-color-gray-700);
+  --i2c-input-border-color-invalid: var(--i2c-color-danger-500);
+  --i2c-input-color: var(--i2c-color-gray-200);
+  --i2c-input-color-hover: var(--i2c-color-gray-200);
+  --i2c-input-color-focus: var(--i2c-color-gray-200);
+  --i2c-input-color-disabled: var(--i2c-color-gray-100);
+  --i2c-input-color-invalid: var(--i2c-color-danger-600);
+  --i2c-input-icon-color: var(--i2c-color-gray-500);
+  --i2c-input-icon-color-hover: var(--i2c-color-gray-300);
+  --i2c-input-icon-color-focus: var(--i2c-color-gray-300);
+  --i2c-input-placeholder-color: var(--i2c-color-gray-600);
+  --i2c-input-placeholder-color-disabled: var(--i2c-color-gray-500);
+  --i2c-overlay-background-color: #d1d5db22;
+  --i2c-panel-background-color: var(--i2c-color-gray-900);
+  --i2c-panel-border-color: var(--i2c-color-gray-800);
+  --i2c-tooltip-background-color: var(--i2c-color-gray-200);
+  --i2c-tooltip-color: var(--i2c-color-black);
+}
+.i2c-theme-dark i2c-alert::part(base) {
+  background-color: var(--i2c-color-gray-900);
+  border-left-color: var(--i2c-color-gray-800);
+  border-right-color: var(--i2c-color-gray-800);
+  border-bottom-color: var(--i2c-color-gray-800);
+  color: var(--i2c-color-gray-200);
+}
+.i2c-theme-dark i2c-avatar::part(base) {
+  background-color: var(--i2c-color-gray-700);
+  color: var(--i2c-color-gray-300);
+}
+.i2c-theme-dark i2c-button[type=default]::part(base) {
+  background-color: var(--i2c-color-gray-900);
+  border-color: var(--i2c-color-gray-700);
+  color: var(--i2c-color-gray-400);
+}
+.i2c-theme-dark i2c-button[type=default]:not([disabled])::part(base):hover {
+  background-color: var(--i2c-color-primary-950);
+  border-color: var(--i2c-color-primary-800);
+  color: var(--i2c-color-primary-400);
+}
+.i2c-theme-dark i2c-button[type=default]:not([disabled])::part(base):focus {
+  background-color: var(--i2c-color-primary-950);
+  border-color: var(--i2c-color-primary-800);
+  color: var(--i2c-color-primary-400);
+  box-shadow: 0 0 0 var(--i2c-focus-ring-width) hsla(var(--i2c-color-primary-hue), var(--i2c-color-primary-saturation), 50%, var(--i2c-focus-ring-alpha));
+}
+.i2c-theme-dark i2c-button[type=default]:not([disabled])::part(base):active {
+  background-color: var(--i2c-color-primary-900);
+  border-color: var(--i2c-color-primary-700);
+  color: var(--i2c-color-primary-300);
+}
+.i2c-theme-dark i2c-card::part(base) {
+  background-color: var(--i2c-color-gray-900);
+  --border-color: var(--i2c-color-gray-800);
+}
+.i2c-theme-dark i2c-checkbox::part(control),
+.i2c-theme-dark i2c-radio::part(control) {
+  color: var(--i2c-color-gray-900);
+}
+.i2c-theme-dark i2c-color-picker::part(format-button) {
+  background-color: var(--i2c-color-gray-900);
+  border-color: var(--i2c-color-gray-700);
+  color: var(--i2c-color-gray-400);
+}
+.i2c-theme-dark i2c-color-picker::part(format-button):hover {
+  background-color: var(--i2c-color-primary-950);
+  border-color: var(--i2c-color-primary-800);
+  color: var(--i2c-color-primary-400);
+}
+.i2c-theme-dark i2c-color-picker::part(format-button):focus {
+  background-color: var(--i2c-color-primary-950);
+  border-color: var(--i2c-color-primary-800);
+  color: var(--i2c-color-primary-400);
+  box-shadow: 0 0 0 var(--i2c-focus-ring-width) hsla(var(--i2c-color-primary-hue), var(--i2c-color-primary-saturation), 50%, var(--i2c-focus-ring-alpha));
+}
+.i2c-theme-dark i2c-color-picker::part(format-button):active {
+  background-color: var(--i2c-color-primary-900);
+  border-color: var(--i2c-color-primary-700);
+  color: var(--i2c-color-primary-300);
+}
+.i2c-theme-dark i2c-color-picker::part(panel) {
+  background-color: var(--i2c-color-gray-900);
+  border-color: var(--i2c-color-gray-800);
+}
+.i2c-theme-dark i2c-color-picker::part(slider-handle) {
+  background-color: var(--i2c-color-gray-800);
+  box-shadow: 0 0 0 1px var(--i2c-color-gray-600);
+}
+.i2c-theme-dark i2c-color-picker::part(slider-handle):focus {
+  box-shadow: 0 0 0 1px var(--i2c-color-primary-500), 0 0 0 var(--i2c-focus-ring-width) var(--i2c-focus-ring-color-primary);
+}
+.i2c-theme-dark i2c-color-picker::part(grid-handle) {
+  border-color: var(--i2c-color-gray-900);
+}
+.i2c-theme-dark i2c-color-picker::part(preview),
+.i2c-theme-dark i2c-color-picker::part(opacity-slider),
+.i2c-theme-dark i2c-color-picker::part(trigger) {
+  background-image:
+    linear-gradient(45deg, #333 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #333 75%),
+    linear-gradient(45deg, transparent 75%, #333 75%),
+    linear-gradient(45deg, #333 25%, transparent 25%);
+}
+.i2c-theme-dark i2c-color-picker::part(swatches) {
+  border-top-color: var(--i2c-color-gray-800);
+}
+.i2c-theme-dark i2c-details::part(base) {
+  border-color: var(--i2c-color-gray-800);
+}
+.i2c-theme-dark i2c-icon-button::part(base) {
+  color: var(--i2c-color-gray-400);
+}
+.i2c-theme-dark i2c-icon-button:not([disabled])::part(base):hover,
+.i2c-theme-dark i2c-icon-button:not([disabled])::part(base):focus {
+  color: var(--i2c-color-primary-500);
+}
+.i2c-theme-dark i2c-icon-button:not([disabled])::part(base):active {
+  color: var(--i2c-color-primary-400);
+}
+.i2c-theme-dark i2c-image-comparer::part(divider),
+.i2c-theme-dark i2c-image-comparer::part(handle) {
+  background-color: var(--i2c-color-gray-900);
+  color: var(--i2c-color-gray-400);
+}
+.i2c-theme-dark i2c-menu-item::part(base) {
+  color: var(--i2c-color-gray-200);
+}
+.i2c-theme-dark i2c-menu-item::part(base):focus {
+  background-color: var(--i2c-color-primary-600);
+  color: var(--i2c-color-white);
+}
+.i2c-theme-dark i2c-menu-item[disabled]::part(base) {
+  color: var(--i2c-color-gray-600);
+}
+.i2c-theme-dark i2c-menu-label::part(base) {
+  color: var(--i2c-color-gray-600);
+}
+.i2c-theme-dark i2c-progress-bar::part(base) {
+  background-color: var(--i2c-color-gray-800);
+}
+.i2c-theme-dark i2c-progress-bar::part(indicator) {
+  color: var(--i2c-color-gray-900);
+}
+.i2c-theme-dark i2c-progress-ring::part(base) {
+  --track-color: var(--i2c-color-gray-800);
+}
+.i2c-theme-dark i2c-range {
+  --track-color: var(--i2c-color-gray-800);
+}
+.i2c-theme-dark i2c-rating {
+  --symbol-color: var(--i2c-color-gray-700);
+}
+.i2c-theme-dark i2c-select::part(tag) {
+  background-color: var(--i2c-color-info-800);
+  border-color: var(--i2c-color-info-700);
+  color: var(--i2c-color-info-300);
+}
+.i2c-theme-dark i2c-skeleton {
+  --color: var(--i2c-color-gray-800);
+  --sheen-color: var(--i2c-color-gray-700);
+}
+.i2c-theme-dark i2c-spinner {
+  --track-color: #f9fafb20;
+}
+.i2c-theme-dark i2c-switch::part(thumb) {
+  background-color: var(--i2c-color-gray-900);
+}
+.i2c-theme-dark i2c-switch::part(control) {
+  background-color: var(--i2c-color-gray-700);
+  border-color: var(--i2c-color-gray-700);
+}
+.i2c-theme-dark i2c-switch:not([disabled])::part(control):hover {
+  background-color: var(--i2c-color-gray-600);
+  border-color: var(--i2c-color-gray-600);
+}
+.i2c-theme-dark i2c-switch[checked]::part(control) {
+  background-color: var(--i2c-color-primary-600);
+  border-color: var(--i2c-color-primary-600);
+}
+.i2c-theme-dark i2c-switch[checked]::part(control):hover {
+  background-color: var(--i2c-color-primary-500);
+  border-color: var(--i2c-color-primary-500);
+}
+.i2c-theme-dark i2c-tab-group::part(tabs) {
+  --tabs-border-color: var(--i2c-color-gray-800);
+}
+.i2c-theme-dark i2c-tab::part(base) {
+  color: var(--i2c-color-gray-400);
+}
+.i2c-theme-dark i2c-tab:not([disabled])::part(base):hover,
+.i2c-theme-dark i2c-tab[active]::part(base) {
+  color: var(--i2c-color-primary-500);
+}
+.i2c-theme-dark i2c-tag[type=primary]::part(base) {
+  background-color: var(--i2c-color-primary-950);
+  border-color: var(--i2c-color-primary-900);
+  color: var(--i2c-color-primary-300);
+}
+.i2c-theme-dark i2c-tag[type=success]::part(base) {
+  background-color: var(--i2c-color-success-950);
+  border-color: var(--i2c-color-success-900);
+  color: var(--i2c-color-success-300);
+}
+.i2c-theme-dark i2c-tag[type=info]::part(base) {
+  background-color: var(--i2c-color-info-800);
+  border-color: var(--i2c-color-info-700);
+  color: var(--i2c-color-info-300);
+}
+.i2c-theme-dark i2c-tag[type=warning]::part(base) {
+  background-color: var(--i2c-color-warning-950);
+  border-color: var(--i2c-color-warning-900);
+  color: var(--i2c-color-warning-300);
+}
+.i2c-theme-dark i2c-tag[type=danger]::part(base) {
+  background-color: var(--i2c-color-danger-950);
+  border-color: var(--i2c-color-danger-900);
+  color: var(--i2c-color-danger-300);
+}
